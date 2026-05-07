@@ -112,3 +112,30 @@ footer {
   color: #94a3b8;
   padding: 20px;
 }
+.hero-visual {
+  margin: 35px auto 0;
+  max-width: 520px;
+  background: rgba(30, 41, 59, 0.85);
+  border: 1px solid #38bdf8;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+.database-icon {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.code-lines {
+  text-align: left;
+  font-family: Consolas, monospace;
+  color: #38bdf8;
+  background: #020617;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.code-lines p {
+  margin: 6px 0;
+}
