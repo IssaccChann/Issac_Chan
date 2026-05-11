@@ -150,12 +150,13 @@ h3 {
 }
 
 .project-img {
-  width: 300px;
-  height: 300px;
-  object-fit: contain;   /* shows full image */
-  background: #020617;
+  width: 100%;
+  max-width: 500px;      /* controls size */
+  height: auto;          /* keeps full image visible */
+  object-fit: contain;   /* prevents zoom/cropping */
+  background: #020617;   /* fills empty space */
   display: block;
-  margin: 0 auto 15px;
+  margin: 0 auto 15px;   /* center it */
   border-radius: 12px;
   border: 1px solid #334155;
 }
