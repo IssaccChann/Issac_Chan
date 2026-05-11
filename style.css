@@ -96,13 +96,12 @@ h2 {
 /* PROJECT IMAGES */
 .project-img {
   width: 100%;
-  max-height: 220px;
+  max-height: 180px;   /* smaller */
   object-fit: cover;
   object-position: top;
   border-radius: 12px;
   margin-bottom: 15px;
   border: 1px solid #334155;
-}
 
 /* BUTTONS */
 .btn {
